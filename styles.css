@@ -9,3 +9,6 @@ section{
 p.copy{
     color: white;
 }
+img{
+    width: 200px; height: 100px;
+}
