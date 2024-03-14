@@ -3,12 +3,16 @@
     padding: 0;
 }
 section{
-    background-color: gray;
+    /* background-color: gray; */
 }
 
 p.copy{
     color: white;
 }
-img{
+img.Devimg{
     width: 200px; height: 100px;
+}
+
+img.Proyecto{
+    width: 208px; height: 208px;
 }
