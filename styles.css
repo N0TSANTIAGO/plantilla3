@@ -5,14 +5,12 @@
 section{
     background-color: gray;
 }
-
+.aboutTitle{
+    border: 20px;
+}
 p.copy{
     color: white;
 }
-img.Devimg{
+/* img.Devimg{
     width: 200px; height: 100px;
-}
-
-img.Proyecto{
-    width: 208px; height: 208px;
-}
+} */
