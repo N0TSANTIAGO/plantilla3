@@ -31,6 +31,7 @@
         </ul>
       </div>
     </nav>
+
   <!-- Sobre Mí -->
   <section id="sobre-mi" class="bg-gradient-dark py-5">
     <!-- Contenido de la sección Sobre Mí -->
@@ -43,12 +44,12 @@
           <!-- agrega información acera de tu perfil profesional (lo que eres o esperas ser) -->
 
           <!-- Agrega el enlace de descarga de la hoja de vida con un ícono -->
-          <a href="./assets/pdf-prueba.pdf" download>
+          <a href="./assets/SobreMi/HojaDeVida.mp4">
             <i class="fa fa-download"></i> Descargar Hoja de Vida
           </a>
         </div>
         <div class="col-md-4">                    
-          <img src="./assets/dev.jpeg" alt="Imagen de Perfil" class="img-fluid mx-auto rounded-circle">
+          <img id="Devimg" src="./assets/SobreMi/dev.jpeg" alt="Imagen de Perfil" class="img-fluid mx-max rounded-circle d-block ">
         </div>
       </div>
     </div>
@@ -58,35 +59,59 @@
   <section id="portafolio" class="py-5 bg-gray">
     <!-- Contenido de la sección Portafolio -->
     <div class="container">
-      <h2 class="text-center mb-4">Portafolio</h2>
+      <h2   class="text-center mb-4">Portafolio</h2>
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
+
           <!-- Proyecto 1 -->
           <div class="carousel-item active">
               <div class="row">
                 <div class="col-md-4">
                   <div class="card">
-                    <img src="./assets/Desarrollo-Web.png" class="card-img-top" alt="Proyecto 1">
+                    <img  src="./assets/Portafolio/Calculadora.png" class="card-img-top" alt="Proyecto1">
                     <div class="card-body">
-                      <h5 class="card-title">Proyecto 1</h5>
-                      <p class="card-text">Descripción del proyecto 1.</p>
-                      <a href="http://">Ver más</a>
+                      <h5 class="card-title">Calculadora de Notas</h5>
+                      <p class="card-text">Progama Tipo consola que permita calcular nota acumulada y nota deseada de un materia.</p>
+                      <a href="https://github.com/N0TSANTIAGO/CalculadoraNotas">Ver más</a>
                     </div>
                   </div>
                 </div>
-                  <!-- Añade más proyectos aquí -->
+
+                  <!-- Proyecto 2 -->  
+                    <div class="col-md-4">
+                      <div class="card">
+                        <img src="./assets/Portafolio/Login.png" class="card-img-top" alt="Proyecto2">
+                        <div class="card-body">
+                          <h5 class="card-title">LOGIN</h5>
+                          <p class="card-text">proyecto web de un Login </p>
+                          <a href="https://github.com/N0TSANTIAGO/Login">Ver más</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Añade más proyectos aquí -->  
+                    <div class="col-md-4">
+                      <div class="card">
+                        <img src="./assets/Portafolio/GestionBilbioteca.jpg" class="card-img-top" alt="Proyecto2">
+                        <div class="card-body">
+                          <h5 class="card-title">Gestion de Biblioteca</h5>
+                          <p class="card-text">proyecto web de Gestion de una bilboteca.</p>
+                          <a href="https://github.com/N0TSANTIAGO/GestionBiblioteca">Ver más</a>
+                        </div>
+                      </div>
+                    </div>
 
               </div>
           </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <!-- <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="sr-only">Anterior</span>
         </a>
         <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Siguiente</span>
-        </a>
+        </a> -->
       </div>
     </div>
   </section>
@@ -131,6 +156,7 @@
       <p class="copy">&copy; 2024 - Todos los derechos reservados</p>
     </div>
   </footer>
+
 <!-- Scripts -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>

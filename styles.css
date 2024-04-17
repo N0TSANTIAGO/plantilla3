@@ -5,10 +5,9 @@
 section{
     background-color: gray;
 }
-
+.aboutTitle{
+    border: 20px;
+}
 p.copy{
     color: white;
-}
-img{
-    width: 200px; height: 100px;
 }
